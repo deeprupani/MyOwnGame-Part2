@@ -208,7 +208,7 @@ function draw() {
 
     if (bananaGroup.isTouching(player)) {
     bananaGroup.destroyEach();
-   // HP=HP-4
+    HP=HP-4
     }
 
     if (boss1HP <= 0) {
